@@ -23,7 +23,7 @@ header {
 #campus-logo {
     position: static; 
     margin: 0 auto; 
-    height: 100px; /* Disesuaikan agar lebih ringkas */
+    height: 100px; 
     width: auto;
     display: block; 
 }
@@ -356,9 +356,15 @@ footer {
         max-width: 300px;
     }
 
-    /* Tabel: Agar dapat di-scroll */
-    #full-data-table-wrapper, #frequency-table-wrapper {
+    /* KOREKSI OVERFLOW: Tambahkan scroll horizontal pada container tabel di HP */
+    #full-data-table, #frequency-table-container {
         overflow-x: auto; /* Memungkinkan scroll horizontal pada tabel */
+    }
+    
+    /* Pastikan tabel di dalamnya tidak melebihi batas (agar overflow bekerja) */
+    #full-data-table table, #frequency-table-container table {
+        width: 600px; /* Lebar minimum untuk memaksa scroll jika perlu */
+        min-width: 600px;
     }
 }
 
