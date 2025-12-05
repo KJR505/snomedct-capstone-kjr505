@@ -9,41 +9,48 @@ header {
     background-color: #baeb7c; /* Warna Header dari CSS lama Anda */
     color: black;
     padding: 20px;
-    text-align: center;
+    text-align: center; /* Memastikan semua konten (Logo, Judul, Tombol) rata tengah */
     position: relative; 
-    
-    /* Perbaikan 1: Meningkatkan padding dan menghapus posisi absolut dari elemen anak */
-    padding-top: 130px; /* Memberi ruang untuk logo di atas */
-    height: auto; 
+    height: auto; /* Memungkinkan header menyesuaikan tingginya */
 }
 
-/* --- Logo dan Tombol Header --- */
+/* --- LOGO CONTAINER (Baris 1) --- */
+#logo-container {
+    padding-bottom: 10px;
+    /* Menghapus semua style absolute/relative yang lama */
+}
 #campus-logo {
-    /* Perbaikan 1: Pindahkan logo ke posisi absolut di pojok kiri atas */
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    position: static; 
+    margin: 0 auto; /* Memastikan logo rata tengah */
     height: 115px; /* Tinggi dari CSS lama Anda */
     width: auto;
-    display: block; 
+    display: block; /* Penting agar margin auto berfungsi */
 }
 
-/* KOREKSI: Wrapper untuk tombol agar tidak bertumpuk */
+/* --- JUDUL CONTAINER (Baris 2) --- */
+#title-container {
+    padding: 10px 0;
+}
+header h1, header p {
+    margin: 0;
+}
+
+
+/* --- KONTROL TOMBOL (Baris 3) --- */
 #header-controls {
-    position: absolute; /* Posisikan kontrol di pojok kanan atas */
-    top: 20px;
-    right: 20px;
-    display: flex; /* Gunakan flex untuk menata tombol */
-    gap: 15px; 
-    align-items: center;
-    
-    /* NOTE: Karena kita menempatkan ini absolut di kanan atas,
-             header h1/p di tengah tidak akan tertimpa. */
+    display: flex; /* Menggunakan flexbox untuk menata tombol di satu baris */
+    justify-content: center; /* Meratakan tombol ke tengah */
+    gap: 15px; /* Jarak antar tombol */
+    padding-top: 15px;
+    /* Menghapus semua style absolute/relative yang lama */
+    position: static;
 }
 
-/* Perbaikan 2: Hapus Posisi Absolute dari Tombol */
+/* --- Tombol Utama: Hapus Posisi Absolute yang bertumpuk --- */
 header button {
-    position: static; /* Biarkan Flexbox di #header-controls yang mengatur */
+    /* MENGHAPUS STYLE ABSOLUTE YANG MENGGANGGU */
+    position: static; 
+    
     padding: 10px 15px;
     background-color: #28a745;
     color: white;
