@@ -11,8 +11,6 @@ header {
     padding: 20px;
     text-align: center;
     position: relative; 
-    
-    /* OPTIMASI: Mengurangi padding header agar lebih rapat */
     padding-top: 5px; 
     padding-bottom: 5px; 
     height: auto; 
@@ -20,13 +18,11 @@ header {
 
 /* --- LOGO CONTAINER (Baris 1) --- */
 #logo-container {
-    /* OPTIMASI: Hapus padding bawah agar logo dekat dengan judul */
-    padding-bottom: 0px; 
+    padding-bottom: 5px; 
 }
 #campus-logo {
     position: static; 
-    /* OPTIMASI: Margin vertikal logo dikurangi agar rapat ke atas/bawah */
-    margin: 5px auto; 
+    margin: 0 auto; 
     height: 100px; /* Disesuaikan agar lebih ringkas */
     width: auto;
     display: block; 
@@ -34,8 +30,7 @@ header {
 
 /* --- JUDUL CONTAINER (Baris 2) --- */
 #title-container {
-    /* OPTIMASI: Hapus padding agar judul dekat logo dan tombol */
-    padding: 0; 
+    padding: 0;
 }
 header h1, header p {
     margin: 0;
@@ -47,9 +42,8 @@ header h1, header p {
     display: flex; 
     justify-content: center; 
     gap: 15px; 
-    /* OPTIMASI: Padding dikurangi agar tombol lebih dekat ke judul */
     padding-top: 10px;
-    padding-bottom: 5px; /* Jarak dari bawah header */
+    padding-bottom: 5px; 
     position: static;
 }
 
@@ -324,4 +318,60 @@ footer {
     margin: 0 auto;    
     text-align: center; 
     padding: 0 20px; 
+}
+
+/* --- MEDIA QUERIES (RESPONSIVE FIXES) --- */
+
+/* Aturan untuk Layar Tablet dan HP (Lebar maks 768px) */
+@media (max-width: 768px) {
+    
+    /* Tombol Kontrol */
+    #header-controls {
+        flex-direction: column; 
+        gap: 10px; 
+        padding-top: 15px;
+    }
+
+    /* Statistik dan Data Tabel */
+    #stats-content {
+        flex-direction: column; /* Tumpuk item statistik secara vertikal */
+        gap: 0;
+    }
+
+    #gender-chart-container {
+        width: 100%;
+        flex-basis: auto;
+        margin-bottom: 30px;
+    }
+
+    /* Perbaikan Kontrol Data Tabel */
+    #data-controls {
+        flex-direction: column; /* Ubah tata letak search/filter menjadi vertikal */
+        align-items: center;
+        gap: 15px; 
+    }
+    
+    #dataSearchInput, #dataFilterSelect {
+        width: 90%; 
+        max-width: 300px;
+    }
+
+    /* Tabel: Agar dapat di-scroll */
+    #full-data-table-wrapper, #frequency-table-wrapper {
+        overflow-x: auto; /* Memungkinkan scroll horizontal pada tabel */
+    }
+}
+
+/* Aturan untuk Layar HP Sempit (Lebar maks 480px) */
+@media (max-width: 480px) {
+    
+    main {
+        padding: 0 10px;
+    }
+    
+    /* Tabel: Kurangi padding tabel agar muat */
+    #full-data-table th, #full-data-table td, #frequency-table-container th, #frequency-table-container td {
+        padding: 8px 4px;
+        font-size: 0.7em;
+    }
 }
