@@ -6,7 +6,7 @@
     <title>SNOMED-CT Search by KJR505</title>
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="style.css?v=100">
+    <link rel="stylesheet" href="style.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
@@ -85,6 +85,7 @@
             <h2>Tambah Data Mapping Baru</h2>
             <form id="inputForm">
                 <label for="reg">No. Registrasi:</label><input type="text" id="reg" placeholder="Cth: RM011" required><br>
+                
                 <label for="kat">Kategori:</label>
                 <select id="kat" required>
                     <option value="">-- Pilih Kategori --</option>
@@ -95,6 +96,7 @@
                     <option value="Problem">Problem</option>
                     <option value="Tindakan dan Hasil">Tindakan dan Hasil</option>
                 </select><br>
+
                 <label for="teks">Teks Asli Resume:</label><input type="text" id="teks" placeholder="Cth: Demam tinggi / Laki-laki" required><br>
                 <label for="kode">Kode SNOMED-CT:</label><input type="text" id="kode" placeholder="Cth: 386661006" required><br>
                 <label for="fsn">FSN SNOMED-CT:</label><input type="text" id="fsn" placeholder="Cth: Fever (finding) / Man (person)" required><br>
@@ -111,7 +113,8 @@
             <form id="editForm">
                 <input type="hidden" id="editIndex"> 
                 <label for="edit_reg">No. Registrasi:</label><input type="text" id="edit_reg" required><br>
-                 <label for="edit_kat">Kategori:</label>
+                
+                <label for="edit_kat">Kategori:</label>
                 <select id="edit_kat" required>
                     <option value="">-- Pilih Kategori --</option>
                     <option value="Person">Person</option>
@@ -121,6 +124,7 @@
                     <option value="Problem">Problem</option>
                     <option value="Tindakan dan Hasil">Tindakan dan Hasil</option>
                 </select><br>
+                
                 <label for="edit_teks">Teks Asli Resume:</label><input type="text" id="edit_teks" required><br>
                 <label for="edit_kode">Kode SNOMED-CT:</label><input type="text" id="edit_kode" required><br>
                 <label for="edit_fsn">FSN SNOMED-CT:</label><input type="text" id="edit_fsn" required><br>
@@ -132,9 +136,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
-
-
-
-
