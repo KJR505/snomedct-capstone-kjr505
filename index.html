@@ -6,14 +6,8 @@
     <title>SNOMED-CT Search by KJR505</title>
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-        // Script ini membuat link CSS yang unik dengan timestamp (waktu saat ini)
-        const cssLink = document.createElement('link');
-        cssLink.rel = 'stylesheet';
-        // Menggunakan waktu saat ini (getTime()) sebagai parameter unik
-        cssLink.href = 'style.css?t=' + new Date().getTime();
-        document.head.appendChild(cssLink);
-    </script>    
+    <link rel="stylesheet" href="style.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
 </head>
@@ -62,7 +56,9 @@
                 </div>
                 <div id="frequency-table-container">
                     <h3>Tabel Frekuensi Kode SNOMED-CT (FSN)</h3>
-                    </div>
+                    <div id="frequency-table-wrapper" style="overflow-x: auto;">
+                        </div>
+                </div>
             </div>
         </section>
 
@@ -75,7 +71,9 @@
                     </select>
             </div>
             <div id="full-data-table">
-                </div>
+                <div id="full-data-table-wrapper" style="overflow-x: auto;">
+                    </div>
+            </div>
         </section>
     </main>
 
@@ -143,4 +141,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
