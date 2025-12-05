@@ -13,7 +13,6 @@ let currentSearch = '';
 // --- UTILITY FUNCTIONS ---
 
 function showSection(sectionId) {
-    // Daftar semua area konten yang bisa ditampilkan/disembunyikan
     const sections = ['search-area', 'results-container', 'statistics-area', 'all-data-area'];
     
     sections.forEach(id => {
@@ -21,7 +20,6 @@ function showSection(sectionId) {
         if (element) {
             const isDefaultView = sectionId === 'search-area';
             
-            // Logika tampilan: search-area selalu ditemani results-container
             if (id === sectionId || (id === 'results-container' && isDefaultView)) {
                 element.classList.remove('hidden-section');
             } else {
@@ -30,7 +28,6 @@ function showSection(sectionId) {
         }
     });
 
-    // Tampilkan Navigasi Sekunder (Tombol Kembali & Lihat Data)
     const navBar = document.getElementById('nav-bar');
     if (sectionId === 'search-area') {
         navBar.classList.add('hidden-section');
@@ -194,7 +191,6 @@ function updateFilterOptions() {
 }
 
 
-// Wajib dijadikan global agar dapat diakses oleh onclick di HTML
 window.handleSort = (column) => {
     if (column === currentSortColumn) {
         currentSortDirection = currentSortDirection === 'asc' ? 'desc' : 'asc';
@@ -214,7 +210,7 @@ function renderFullDataTable() {
         return;
     }
     
-    let displayData = [...snomedData];
+    let displayData = [...snomedData]; 
     
     // Filter dan Search
     displayData = displayData.filter(item => {
@@ -296,7 +292,7 @@ function renderFullDataTable() {
     container.innerHTML = tableHTML;
 }
 
-// --- LOGIKA EDIT MODAL (Wajib dijadikan global) ---
+// --- LOGIKA EDIT MODAL ---
 
 window.openEditModal = (index) => {
     const data = snomedData[index];
@@ -315,7 +311,7 @@ window.openEditModal = (index) => {
     
     form.editIndex.value = index; 
     form.edit_reg.value = data.No_Registrasi;
-    form.edit_kat.value = data.Kategori;
+    form.edit_kat.value = data.Kategori; // Dropdown value
     form.edit_teks.value = data.Teks_Asli_Resume;
     form.edit_kode.value = data.Kode_SNOMED;
     form.edit_fsn.value = data.FSN_SNOMED;
@@ -475,7 +471,6 @@ function renderStatistics() {
 document.addEventListener('DOMContentLoaded', () => {
     
     loadData().then(() => {
-        // PERBAIKAN: Memastikan search listener dipasang setelah data dimuat
         const searchInput = document.getElementById('searchInput');
         searchInput.addEventListener('input', (event) => {
             performSearch(event.target.value);
@@ -486,20 +481,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const dataSearchInput = document.getElementById('dataSearchInput');
         const dataFilterSelect = document.getElementById('dataFilterSelect');
 
-        // PERBAIKAN: Event Listener untuk Search Data Tabel
         dataSearchInput.addEventListener('input', (e) => {
             currentSearch = e.target.value;
             renderFullDataTable();
         });
 
-        // PERBAIKAN: Event Listener untuk Filter Kategori
         dataFilterSelect.addEventListener('change', (e) => {
             currentFilter = e.target.value;
             renderFullDataTable();
         });
-        
-        // PERBAIKAN: Memasang listener untuk Save Edit
-        document.getElementById('editForm').addEventListener('submit', handleSaveEdit);
     });
 
     // Logika Modal Input Data
@@ -542,6 +532,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
     
+    // Logika Save Edit
+    document.getElementById('editForm').addEventListener('submit', handleSaveEdit);
+
+
     // Logika Tampilan Statistik
     document.getElementById("showStats").addEventListener('click', () => {
         renderStatistics(); 
@@ -557,7 +551,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Logika Tombol Lihat Semua Data
     document.getElementById('btnViewData').addEventListener('click', () => {
-        // Reset sort/filter state sebelum menampilkan tabel
         currentSortColumn = null;
         currentFilter = '';
         currentSearch = '';
