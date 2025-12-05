@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #baeb7c; /* Warna Header dari CSS lama Anda */
+    background-color: #baeb7c;
     color: black;
     padding: 20px;
     text-align: center;
@@ -18,7 +18,7 @@ header {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 115px; /* Tinggi dari CSS lama Anda */
+    height: 115px; 
     width: auto;
     display: block; 
 }
@@ -138,7 +138,12 @@ main {
     cursor: pointer;
 }
 
-#inputForm input[type="text"], #editForm input[type="text"] {
+/* KOREKSI: Tambah SELECT untuk styling Kategori */
+#inputForm input[type="text"], 
+#editForm input[type="text"], 
+#inputForm select, /* TARGET SELECT BARU */
+#editForm select /* TARGET SELECT BARU */
+{
     width: 100%;
     padding: 10px;
     margin: 5px 0 15px 0;
@@ -275,28 +280,17 @@ main {
     padding: 15px;
 }
 
-/* KOREKSI FINAL FOOTER: Mengatasi "nempel di kiri" */
+/* KOREKSI FINAL FOOTER */
 footer {
     background-color: #333; 
     color: white; 
-    padding: 20px 0; /* Padding vertikal */
+    padding: 20px 0; 
     width: 100%;
 }
 
 .footer-content {
     max-width: 1200px; 
-    margin: 0 auto;    /* MERATAKAN TENGAH */
+    margin: 0 auto;    
     text-align: center; 
-    padding: 0 20px; /* Padding untuk layar kecil */
-}
-
-/* KOREKSI UNTUK SELECT DI MODAL */
-#inputForm select, #editForm select {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 15px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    padding: 0 20px; 
 }
