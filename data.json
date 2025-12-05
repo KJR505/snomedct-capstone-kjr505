@@ -1,0 +1,1514 @@
+[
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Laki-laki",
+    "Kode_SNOMED": "339947000",
+    "FSN_SNOMED": "Man (person)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Adult ",
+    "Kode_SNOMED": "133936004",
+    "FSN_SNOMED": "Adult (person)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Non-insulin-dependent diabetes mellitus: with peripheral circulatory complications",
+    "Kode_SNOMED": "422166005",
+    "FSN_SNOMED": "Peripheral circulatory disorder due to type 2 diabetes mellitus (disorder)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Hypo-osmolality and hyponatraemia",
+    "Kode_SNOMED": "267447008",
+    "FSN_SNOMED": "Hypo-osmolality and or hyponatremia (disorder)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Disorders of plasma-protein metabolism, not elsewhere classified",
+    "Kode_SNOMED": "147211000119101",
+    "FSN_SNOMED": "Disorder of plasma protein metabolism (disorder)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Acetylcysteine 200 mg",
+    "Kode_SNOMED": "781749000",
+    "FSN_SNOMED": "Product containing precisely acetylcysteine 200 milligram/1 milliliter conventional release solution for infusion (clinical drug)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Calcium carbonate 500 mg",
+    "Kode_SNOMED": "1285011002",
+    "FSN_SNOMED": "Product containing precisely calcium carbonate 500 milligram/1 each conventional release chewable tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Dextrose 40% injection",
+    "Kode_SNOMED": "67079006",
+    "FSN_SNOMED": "Glucose (substance)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Ketorolac injection",
+    "Kode_SNOMED": "372501008",
+    "FSN_SNOMED": "Ketorolac (substance)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Lidocaine 2% injection",
+    "Kode_SNOMED": "785179007",
+    "FSN_SNOMED": "Product containing precisely lidocaine hydrochloride 2 milligram/1 milliliter conventional release solution for injection (clinical drug)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "NaCl 0.9% infusion 500 mL",
+    "Kode_SNOMED": "1263456009",
+    "FSN_SNOMED": "Product containing precisely sodium chloride 9 milligram/1 milliliter conventional release solution for infusion (clinical drug)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Omeprazole 20 mg capsule",
+    "Kode_SNOMED": "317291008",
+    "FSN_SNOMED": "Product containing precisely omeprazole 20 milligram/1 each conventional release oral capsule (clinical drug)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Paracetamol IV infusion",
+    "Kode_SNOMED": "1237158007",
+    "FSN_SNOMED": "Product containing precisely paracetamol 10 milligram/1 milliliter conventional release solution for infusion (clinical drug)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Pheniramine maleate injection",
+    "Kode_SNOMED": "1163209007",
+    "FSN_SNOMED": "Product containing precisely pheniramine maleate 22.75 milligram/1 milliliter conventional release solution for injection (clinical drug)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "INH (Isoniazid)",
+    "Kode_SNOMED": "387472004",
+    "FSN_SNOMED": "Isoniazid (substance)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Omeprazole 20 mg capsule",
+    "Kode_SNOMED": "387160004",
+    "FSN_SNOMED": "Captopril (substance)"
+  },
+  {
+    "No_Registrasi": "1",
+    "Tanggal_Lahir_Pasien": "10/12/1969",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Kondisi Pulang",
+    "Teks_Asli_Resume": "Mati > 48 jam",
+    "Kode_SNOMED": "419099009",
+    "FSN_SNOMED": "Dead (finding)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Laki-Laki",
+    "Kode_SNOMED": "339947000",
+    "FSN_SNOMED": "Man (person)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Adult ",
+    "Kode_SNOMED": "133936004",
+    "FSN_SNOMED": "Adult (person)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Pendarahan gusi",
+    "Kode_SNOMED": "86276007",
+    "FSN_SNOMED": "Bleeding gums (finding)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "BAB merah kehitaman dan lembek",
+    "Kode_SNOMED": "405729008",
+    "FSN_SNOMED": "Hematochezia (finding)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Kulit gatal bintik kemerahan",
+    "Kode_SNOMED": "64144002",
+    "FSN_SNOMED": "Pruritic rash (disorder)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Muntah",
+    "Kode_SNOMED": "422400008",
+    "FSN_SNOMED": "Vomiting (disorder)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Demam",
+    "Kode_SNOMED": "386661006",
+    "FSN_SNOMED": "Fever (finding)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Sesak",
+    "Kode_SNOMED": "267036007",
+    "FSN_SNOMED": "Dyspnea (finding)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Batuk",
+    "Kode_SNOMED": "49727002",
+    "FSN_SNOMED": "Cough (finding)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Transfusi PRC",
+    "Kode_SNOMED": "71493000",
+    "FSN_SNOMED": "Transfusion of packed red blood cells (procedure)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Other autoimmune haemolytic anemias",
+    "Kode_SNOMED": "413603009",
+    "FSN_SNOMED": "Autoimmune hemolytic anemia (disorder)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Tinea corporis",
+    "Kode_SNOMED": "84849002",
+    "FSN_SNOMED": "Tinea corporis (disorder)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "21/6/1970",
+    "Tanggal_Masuk_Pasien": "30/10/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Miliaria, unspecified",
+    "Kode_SNOMED": "63951004",
+    "FSN_SNOMED": "Miliaria (disorder)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "22/6/1970",
+    "Tanggal_Masuk_Pasien": "31/10/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Asam Traneksamat 100 mg/ml Inj (5 mL) / 500 mg Tab",
+    "Kode_SNOMED": "319861004",
+    "FSN_SNOMED": "Product containing precisely tranexamic acid 500 milligram/1 each conventional release oral tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "23/6/1970",
+    "Tanggal_Masuk_Pasien": "1/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Asam Traneksamat 100 mg/ml Inj (5 mL) / 500 mg Tab",
+    "Kode_SNOMED": "319861004",
+    "FSN_SNOMED": "Product containing precisely tranexamic acid 500 milligram/1 each conventional release oral tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "24/6/1970",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Carbazochrome 5 mg Tab",
+    "Kode_SNOMED": "1201879000",
+    "FSN_SNOMED": "Product containing precisely carbazochrome 5 milligram/1 milliliter conventional release solution for injection (clinical drug)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "25/6/1970",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Omeprazole 20 mg Kapsul",
+    "Kode_SNOMED": "317291008",
+    "FSN_SNOMED": "Product containing precisely omeprazole 20 milligram/1 each conventional release oral capsule (clinical drug)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "26/6/1970",
+    "Tanggal_Masuk_Pasien": "4/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Folic Acid 5 mg Tab",
+    "Kode_SNOMED": "327550006",
+    "FSN_SNOMED": "Product containing precisely folic acid 5 milligram/1 each conventional release oral tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "27/6/1970",
+    "Tanggal_Masuk_Pasien": "5/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Cefadroxil 500 mg kapsul",
+    "Kode_SNOMED": "323813001",
+    "FSN_SNOMED": "Product containing precisely cefadroxil 500 milligram/1 each conventional release oral capsule (clinical drug)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "28/6/1970",
+    "Tanggal_Masuk_Pasien": "6/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Carbazochrome injeksi",
+    "Kode_SNOMED": "1201879000",
+    "FSN_SNOMED": "Product containing precisely carbazochrome 5 milligram/1 milliliter conventional release solution for injection (clinical drug)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "28/6/1970",
+    "Tanggal_Masuk_Pasien": "6/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Omeprazole injeksi 40 mg",
+    "Kode_SNOMED": "766146009",
+    "FSN_SNOMED": "Product containing precisely omeprazole (as omeprazole sodium) 40 milligram/1 vial powder for conventional release solution for injection (clinical drug)"
+  },
+  {
+    "No_Registrasi": "2",
+    "Tanggal_Lahir_Pasien": "28/6/1970",
+    "Tanggal_Masuk_Pasien": "6/11/2025",
+    "Kategori": "Kondisi Pulang",
+    "Teks_Asli_Resume": "Membaik",
+    "Kode_SNOMED": "268910001",
+    "FSN_SNOMED": "Patient's condition improved (finding)"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Laki-Laki",
+    "Kode_SNOMED": "339947000",
+    "FSN_SNOMED": "Man (person)"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Teenager",
+    "Kode_SNOMED": "102509001",
+    "FSN_SNOMED": "Well adolescent (finding)"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Seluruh badan beengkak",
+    "Kode_SNOMED": "271808008",
+    "FSN_SNOMED": "Generalized edema (finding)"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Lab DL",
+    "Kode_SNOMED": "26604007",
+    "FSN_SNOMED": "Complete blood count"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "KK",
+    "Kode_SNOMED": "371883000",
+    "FSN_SNOMED": "Outpatient procedure (procedure)"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "USG Abdomen",
+    "Kode_SNOMED": "45036003",
+    "FSN_SNOMED": "Ultrasonography of abdomen (procedure)"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Nephrotic Syndrome : Unspecified",
+    "Kode_SNOMED": "52254009",
+    "FSN_SNOMED": "Nephrotic syndrome (disorder)"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Essential (primary) Hypertension",
+    "Kode_SNOMED": "59621000",
+    "FSN_SNOMED": "Essential hypertension (disorder)"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Atorvastatin Tablet 20mg",
+    "Kode_SNOMED": "1145420004",
+    "FSN_SNOMED": "Product containing precisely atorvastatin (as atorvastatin calcium) 20 milligram/1 each conventional release oral tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Furosemid Tablet 40mg",
+    "Kode_SNOMED": "317972000",
+    "FSN_SNOMED": "Product containing precisely furosemide 40 milligram/1 each conventional release oral tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Omeprazole Kapsul 20mg",
+    "Kode_SNOMED": "317291008",
+    "FSN_SNOMED": "Product containing precisely omeprazole 20 milligram/1 each conventional release oral capsule (clinical drug)"
+  },
+  {
+    "No_Registrasi": "3",
+    "Tanggal_Lahir_Pasien": "1/11/2007",
+    "Tanggal_Masuk_Pasien": "3/11/2025",
+    "Kategori": "Kondisi Pulang",
+    "Teks_Asli_Resume": "Membaik",
+    "Kode_SNOMED": "268910001",
+    "FSN_SNOMED": "Patient's condition improved (finding)"
+  },
+  {
+    "No_Registrasi": "4",
+    "Tanggal_Lahir_Pasien": "31/12/1948",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Laki-Laki",
+    "Kode_SNOMED": "339947000",
+    "FSN_SNOMED": "Man (person)"
+  },
+  {
+    "No_Registrasi": "4",
+    "Tanggal_Lahir_Pasien": "31/12/1948",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Elderly",
+    "Kode_SNOMED": "105437002",
+    "FSN_SNOMED": "Elderly man (person)"
+  },
+  {
+    "No_Registrasi": "4",
+    "Tanggal_Lahir_Pasien": "31/12/1948",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Chronic Obstructive Pulmonary Disease with Acute Lower",
+    "Kode_SNOMED": "196001008",
+    "FSN_SNOMED": "Chronic obstructive pulmonary disease with acute lower respiratory infection (disorder)"
+  },
+  {
+    "No_Registrasi": "4",
+    "Tanggal_Lahir_Pasien": "31/12/1948",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Acetylcystein Kapsul 200mg",
+    "Kode_SNOMED": "774424007",
+    "FSN_SNOMED": "Product containing only acetylcysteine (medicinal product)"
+  },
+  {
+    "No_Registrasi": "4",
+    "Tanggal_Lahir_Pasien": "31/12/1948",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "NACL Satoria inf 500ml",
+    "Kode_SNOMED": "387390002",
+    "FSN_SNOMED": "Sodium chloride (substance)"
+  },
+  {
+    "No_Registrasi": "4",
+    "Tanggal_Lahir_Pasien": "31/12/1948",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Omeprazole INJ 40",
+    "Kode_SNOMED": "766146009",
+    "FSN_SNOMED": "Product containing precisely omeprazole (as omeprazole sodium) 40 milligram/1 vial powder for conventional release solution for injection (clinical drug)"
+  },
+  {
+    "No_Registrasi": "4",
+    "Tanggal_Lahir_Pasien": "31/12/1948",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Pacacetamol Tablet 500mg",
+    "Kode_SNOMED": "322236009",
+    "FSN_SNOMED": "Product containing precisely paracetamol 500 milligram/1 each conventional release oral tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "4",
+    "Tanggal_Lahir_Pasien": "31/12/1948",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Salbutamol Tablet 2mg",
+    "Kode_SNOMED": "320106000",
+    "FSN_SNOMED": "Product containing precisely salbutamol (as salbutamol sulfate) 2 milligram/1 each conventional release oral tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "4",
+    "Tanggal_Lahir_Pasien": "31/12/1948",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Omeprazole Kapsul 20mg",
+    "Kode_SNOMED": "317306008",
+    "FSN_SNOMED": "Product containing precisely omeprazole 20 milligram/1 each conventional release oral tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "4",
+    "Tanggal_Lahir_Pasien": "31/12/1948",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Paracetamol inf 10mg",
+    "Kode_SNOMED": "1237158007",
+    "FSN_SNOMED": " Product containing precisely paracetamol 10 milligram/1 milliliter conventional release solution for infusion (clinical drug)"
+  },
+  {
+    "No_Registrasi": "4",
+    "Tanggal_Lahir_Pasien": "31/12/1948",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Kondisi Pulang",
+    "Teks_Asli_Resume": "Membaik",
+    "Kode_SNOMED": "268910001",
+    "FSN_SNOMED": "Patient's condition improved (finding)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Laki-Laki",
+    "Kode_SNOMED": "339947000",
+    "FSN_SNOMED": "Man (person)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Adult",
+    "Kode_SNOMED": "133936004",
+    "FSN_SNOMED": "Adult (person)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Muntah darah",
+    "Kode_SNOMED": "422400008",
+    "FSN_SNOMED": "Hematemesis (finding)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "BAB hitam",
+    "Kode_SNOMED": "35064005",
+    "FSN_SNOMED": "Dark stools (finding)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Perut",
+    "Kode_SNOMED": "69695003",
+    "FSN_SNOMED": "Stomach structure (body structure)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Nyeri perut skala 5",
+    "Kode_SNOMED": "271681002",
+    "FSN_SNOMED": "Stomach ache (finding)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Esophagogastroduodenoscopy (EGD)",
+    "Kode_SNOMED": "73761001",
+    "FSN_SNOMED": "Esophagogastroduodenoscopy (procedure)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Elektrokardiogram (EKG)",
+    "Kode_SNOMED": "268400002",
+    "FSN_SNOMED": "Electrocardiographic procedure (procedure)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Gastric varices",
+    "Kode_SNOMED": "300331000",
+    "FSN_SNOMED": "Gastric varices (disorder)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Oesophageal varices without bleeding",
+    "Kode_SNOMED": "300331000",
+    "FSN_SNOMED": "Esophageal varices without bleeding (disorder)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Cirrhosis of liver (unspecified)",
+    "Kode_SNOMED": "233985008",
+    "FSN_SNOMED": "Cirrhosis of liver (disorder)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Dextrose 40% 25 mL",
+    "Kode_SNOMED": "67079006",
+    "FSN_SNOMED": "Glucose (substance)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Omeprazole 20 mg",
+    "Kode_SNOMED": "317291008",
+    "FSN_SNOMED": "Product containing precisely omeprazole 20 mg capsule (clinical drug)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Ketorolac inj 30 mg",
+    "Kode_SNOMED": "781956004",
+    "FSN_SNOMED": "Product containing precisely ketorolac trometamol 30 milligram/1 milliliter conventional release solution for injection (clinical drug)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "NaCl 0.9% infusion",
+    "Kode_SNOMED": "1263456009",
+    "FSN_SNOMED": "Product containing precisely sodium chloride 9 mg/mL infusion (clinical drug)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Paracetamol inj 1000 mg",
+    "Kode_SNOMED": "1237158007",
+    "FSN_SNOMED": "Product containing precisely paracetamol 10 mg/mL infusion (clinical drug)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Lansoprazole inj 30 mg",
+    "Kode_SNOMED": "425579002",
+    "FSN_SNOMED": "Product containing precisely lansoprazole 30 milligram/1 vial powder for conventional release solution for injection (clinical drug)"
+  },
+  {
+    "No_Registrasi": "5",
+    "Tanggal_Lahir_Pasien": "19/9/1961",
+    "Tanggal_Masuk_Pasien": "2/11/2025",
+    "Kategori": "Kondisi Pulang",
+    "Teks_Asli_Resume": "Membaik",
+    "Kode_SNOMED": "268910001",
+    "FSN_SNOMED": "Patient's condition improved (finding)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Perempuan",
+    "Kode_SNOMED": "224526002",
+    "FSN_SNOMED": "Woman (person)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Neonate",
+    "Kode_SNOMED": "3658006",
+    "FSN_SNOMED": "Neonatal (person)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Pemeriksaan fisik",
+    "Kode_SNOMED": "301011002",
+    "FSN_SNOMED": "Physical examination (procedure)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Radiologi: Ground-glass appearance RDS",
+    "Kode_SNOMED": "425980005",
+    "FSN_SNOMED": "Ground glass appearance on chest X-ray (finding)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "USG kepala normal",
+    "Kode_SNOMED": "371571004",
+    "FSN_SNOMED": "Ultrasound of head normal (finding)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Prematuritas 32 minggu",
+    "Kode_SNOMED": "15635411000119106",
+    "FSN_SNOMED": "Baby premature 32 weeks (finding)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "BBLR",
+    "Kode_SNOMED": "267258002",
+    "FSN_SNOMED": "Low birth weight infant (disorder)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Respiratory Distress Syndrome (RDS)",
+    "Kode_SNOMED": "46731005",
+    "FSN_SNOMED": "Neonatal respiratory distress syndrome (disorder)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Surfactant intratrakeal",
+    "Kode_SNOMED": "373270004",
+    "FSN_SNOMED": "Surfactant (substance)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Oksigenasi CPAP",
+    "Kode_SNOMED": "371907003",
+    "FSN_SNOMED": "Continuous positive airway pressure ventilation (procedure)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Nutrisi parenteral",
+    "Kode_SNOMED": "22636003",
+    "FSN_SNOMED": "Parenteral nutrition (procedure)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "ASI melalui NGT",
+    "Kode_SNOMED": "129265001",
+    "FSN_SNOMED": "Feeding via nasogastric tube (procedure)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Ampicillin",
+    "Kode_SNOMED": "372729000",
+    "FSN_SNOMED": "Ampicillin (substance)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Gentamicin",
+    "Kode_SNOMED": "372729002",
+    "FSN_SNOMED": "Gentamicin (substance)"
+  },
+  {
+    "No_Registrasi": "6",
+    "Tanggal_Lahir_Pasien": "1/5/2025",
+    "Tanggal_Masuk_Pasien": "10/5/2025",
+    "Kategori": "Kondisi Pulang",
+    "Teks_Asli_Resume": "Stabil, berat naik 1800 g",
+    "Kode_SNOMED": "371883000",
+    "FSN_SNOMED": "Condition stable (finding)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Perempuan",
+    "Kode_SNOMED": "224526002",
+    "FSN_SNOMED": "Woman (person)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Elderly",
+    "Kode_SNOMED": "105438007",
+    "FSN_SNOMED": "Elderly woman (person)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Mual",
+    "Kode_SNOMED": "422587007",
+    "FSN_SNOMED": "Nausea (finding)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Muntah",
+    "Kode_SNOMED": "422400008",
+    "FSN_SNOMED": "Vomiting (disorder)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Lemas",
+    "Kode_SNOMED": "13791008",
+    "FSN_SNOMED": "Asthenia (finding)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Penurunan Nafsu makan",
+    "Kode_SNOMED": "79890006",
+    "FSN_SNOMED": "Loss of appetite (finding)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Diabetes mellitus type 2",
+    "Kode_SNOMED": "472969004",
+    "FSN_SNOMED": "History of diabetes mellitus type 2 (situation)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Penglihatan kabur bilateral",
+    "Kode_SNOMED": "63102001",
+    "FSN_SNOMED": "Visual disturbance (disorder)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Radiologi thoraks",
+    "Kode_SNOMED": "169069000",
+    "FSN_SNOMED": "Computed tomography of chest (procedure)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Rehidrasi",
+    "Kode_SNOMED": "243221009",
+    "FSN_SNOMED": "Rehydration therapy (procedure)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Pemeriksaan slit-lamp",
+    "Kode_SNOMED": "55468007",
+    "FSN_SNOMED": "Ocular slit lamp examination (procedure)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Phacoemulsification dengan pemasangan lens",
+    "Kode_SNOMED": "1362048006",
+    "FSN_SNOMED": "Extraction of lens by coaxial phacoemulsification (procedure)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Katarak matur bilateral",
+    "Kode_SNOMED": "95722004",
+    "FSN_SNOMED": "Bilateral cataracts (disorder)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "DM tipe 2 tidak terkontrol dengan DKA",
+    "Kode_SNOMED": "420422005",
+    "FSN_SNOMED": "Ketoacidosis due to diabetes mellitus (disorder)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Katarak bilateral",
+    "Kode_SNOMED": "768794008",
+    "FSN_SNOMED": "Cataract of bilateral eyes due to diabetes mellitus (disorder)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Insulin drip",
+    "Kode_SNOMED": "67866001",
+    "FSN_SNOMED": "Insulin (substance)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Multivitamin",
+    "Kode_SNOMED": "438431000124107",
+    "FSN_SNOMED": "Vitamin supplement (substance)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Antibiotik empiris (Ceftriaxone IV)",
+    "Kode_SNOMED": "372670001",
+    "FSN_SNOMED": "Ceftriaxone (substance)"
+  },
+  {
+    "No_Registrasi": "7",
+    "Tanggal_Lahir_Pasien": "27/07/1950",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Kondisi Pulang",
+    "Teks_Asli_Resume": "Membaik",
+    "Kode_SNOMED": "268910001",
+    "FSN_SNOMED": "Patient's condition improved (finding)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Perempuan",
+    "Kode_SNOMED": "224526002",
+    "FSN_SNOMED": "Woman (person)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Adult",
+    "Kode_SNOMED": "133936004",
+    "FSN_SNOMED": "Adult (person)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Sesak napas",
+    "Kode_SNOMED": "267036007",
+    "FSN_SNOMED": "Dyspnea (finding)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Mual",
+    "Kode_SNOMED": "422587007",
+    "FSN_SNOMED": "Nausea (finding)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Penurunan kesadaran",
+    "Kode_SNOMED": "419045004",
+    "FSN_SNOMED": "Loss of consciousness (finding)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Hipertensi",
+    "Kode_SNOMED": "38341003",
+    "FSN_SNOMED": "Hypertensive disorder, systemic arterial (disorder)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Diabetes mellitus type 2",
+    "Kode_SNOMED": "472969004",
+    "FSN_SNOMED": "History of diabetes mellitus type 2 (situation)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Edema kaki",
+    "Kode_SNOMED": "816190002",
+    "FSN_SNOMED": "Edema of bilateral lower legs (finding)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Penurunan urin",
+    "Kode_SNOMED": "83128009",
+    "FSN_SNOMED": "Oliguria (finding)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Mudah lelah",
+    "Kode_SNOMED": "84229001",
+    "FSN_SNOMED": "Fatigue (finding)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Tekanan darah Tinggi",
+    "Kode_SNOMED": "38341003",
+    "FSN_SNOMED": "Hypertensive disorder, systemic arterial (disorder)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Pucat",
+    "Kode_SNOMED": "1209208002",
+    "FSN_SNOMED": "Pallor of skin of face (finding)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Hemodialysis procedure",
+    "Kode_SNOMED": "302497006",
+    "FSN_SNOMED": "Hemodialysis (procedure)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "USG Abdomen",
+    "Kode_SNOMED": "45036003",
+    "FSN_SNOMED": "Ultrasonography of abdomen (procedure)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "EKG",
+    "Kode_SNOMED": "29303009",
+    "FSN_SNOMED": "Electrocardiographic procedure (procedure)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Ginjal mengecil & perfusi menurun",
+    "Kode_SNOMED": "15883561000119108",
+    "FSN_SNOMED": "Ultrasonography of kidney abnormal (finding)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Hipertrofi ventrikel kiri",
+    "Kode_SNOMED": "55827005",
+    "FSN_SNOMED": "Left ventricular hypertrophy (disorder)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Pemasangan kateter double lumen",
+    "Kode_SNOMED": "45211000",
+    "FSN_SNOMED": "Catheterization (procedure)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Hipertensi",
+    "Kode_SNOMED": "38341003",
+    "FSN_SNOMED": "Hypertensive disorder, systemic arterial (disorder)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Diabetes Mellitus tipe 2",
+    "Kode_SNOMED": "44054006",
+    "FSN_SNOMED": "Diabetes mellitus type 2 (disorder)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Anemia",
+    "Kode_SNOMED": "271737000",
+    "FSN_SNOMED": "Anemia (disorder)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "CKD Stage IV",
+    "Kode_SNOMED": "431857002",
+    "FSN_SNOMED": "Chronic kidney disease stage 4 (disorder)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Hiperkalemia",
+    "Kode_SNOMED": "14140009",
+    "FSN_SNOMED": "Hyperkalemia (disorder)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Amlodipine 10 mg",
+    "Kode_SNOMED": "783048008",
+    "FSN_SNOMED": "Product containing precisely amlodipine (as amlodipine besilate) 10 milligram/1 each conventional release oral tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Losartan 50 mg",
+    "Kode_SNOMED": "318956006",
+    "FSN_SNOMED": "Product containing precisely losartan potassium 50 milligram/1 each conventional release oral tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Furosemide 40 mg",
+    "Kode_SNOMED": "317972000",
+    "FSN_SNOMED": "Product containing precisely furosemide 40 milligram/1 each conventional release oral tablet (clinical drug)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Apidra Solostar (Insulin glulisine)",
+    "Kode_SNOMED": "411530000",
+    "FSN_SNOMED": "Insulin glulisine (substance)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Erythropoietin",
+    "Kode_SNOMED": ": 83042003",
+    "FSN_SNOMED": "Erythropoietin (substance)"
+  },
+  {
+    "No_Registrasi": "8",
+    "Tanggal_Lahir_Pasien": "20/01/1994",
+    "Tanggal_Masuk_Pasien": "15/09/2023",
+    "Kategori": "Kondisi Pulang",
+    "Teks_Asli_Resume": "Membaik",
+    "Kode_SNOMED": "268910001",
+    "FSN_SNOMED": "Patient's condition improved (finding)"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Laki-Laki",
+    "Kode_SNOMED": "339947000",
+    "FSN_SNOMED": "Man (person)"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Adult",
+    "Kode_SNOMED": "133936004",
+    "FSN_SNOMED": "Adult (person)"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "dyspnea",
+    "Kode_SNOMED": "267036007",
+    "FSN_SNOMED": "Dyspnea (finding)"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "hypertension",
+    "Kode_SNOMED": "161501007",
+    "FSN_SNOMED": "History of hypertension (situation)"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Penurunan urine ? oliguria",
+    "Kode_SNOMED": "83128009",
+    "FSN_SNOMED": "Oliguria (finding)"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Hemodialysis",
+    "Kode_SNOMED": "302497006",
+    "FSN_SNOMED": "Hemodialysis (procedure)"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Central venous catheter insertion",
+    "Kode_SNOMED": "449862001",
+    "FSN_SNOMED": "Insertion of cuffed central venous catheter (procedure)"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Hipertensi kronis dengan Renal Failure",
+    "Kode_SNOMED": "38481006",
+    "FSN_SNOMED": "Hypertensive renal disease (disorder)"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Hyperkalemia",
+    "Kode_SNOMED": "14140009",
+    "FSN_SNOMED": "Hyperkalemia (disorder)\n"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Anemia",
+    "Kode_SNOMED": "271737000",
+    "FSN_SNOMED": "Anemia (disorder)"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Captopril 50 mg",
+    "Kode_SNOMED": "318824000",
+    "FSN_SNOMED": "Product containing precisely captopril 50 milligram/1 each conventional release oral tablet (clinical drug)\n"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Nifedipine 30 mg",
+    "Kode_SNOMED": "371761006",
+    "FSN_SNOMED": "Product containing precisely nifedipine 30 milligram/1 each conventional release oral tablet (clinical drug)\n"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Furosemide 80 mg",
+    "Kode_SNOMED": "395510001",
+    "FSN_SNOMED": "Product containing precisely furosemide 80 milligram/1 each conventional release oral tablet (clinical drug)\n"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Resonium A",
+    "Kode_SNOMED": "387149008",
+    "FSN_SNOMED": "Sodium polystyrene sulfonate (substance)\n"
+  },
+  {
+    "No_Registrasi": "9",
+    "Tanggal_Lahir_Pasien": "14/05/2002",
+    "Tanggal_Masuk_Pasien": "10/7/2023",
+    "Kategori": "Kondisi Pulang",
+    "Teks_Asli_Resume": "Membaik",
+    "Kode_SNOMED": "268910001",
+    "FSN_SNOMED": "Patient's condition improved (finding)"
+  },
+  {
+    "No_Registrasi": "10",
+    "Tanggal_Lahir_Pasien": "19/04/1990",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Perempuan",
+    "Kode_SNOMED": "224526002",
+    "FSN_SNOMED": "Woman (person)"
+  },
+  {
+    "No_Registrasi": "10",
+    "Tanggal_Lahir_Pasien": "19/04/1990",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Person",
+    "Teks_Asli_Resume": "Adult",
+    "Kode_SNOMED": "133936004",
+    "FSN_SNOMED": "Adult (person)"
+  },
+  {
+    "No_Registrasi": "10",
+    "Tanggal_Lahir_Pasien": "19/04/1990",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Diabetes mellitus type 2",
+    "Kode_SNOMED": "472969004",
+    "FSN_SNOMED": "\nHistory of diabetes mellitus type 2 (situation)"
+  },
+  {
+    "No_Registrasi": "10",
+    "Tanggal_Lahir_Pasien": "19/04/1990",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Problem",
+    "Teks_Asli_Resume": "Presentasi sungsang",
+    "Kode_SNOMED": "6096002",
+    "FSN_SNOMED": "Breech presentation (finding)"
+  },
+  {
+    "No_Registrasi": "10",
+    "Tanggal_Lahir_Pasien": "19/04/1990",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Tindakan dan Hasil",
+    "Teks_Asli_Resume": "Cesarean section",
+    "Kode_SNOMED": "11466000",
+    "FSN_SNOMED": "Cesarean section (procedure)\n"
+  },
+  {
+    "No_Registrasi": "10",
+    "Tanggal_Lahir_Pasien": "19/04/1990",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Diagnosa",
+    "Teks_Asli_Resume": "Presentasi sungsang",
+    "Kode_SNOMED": "6096002",
+    "FSN_SNOMED": "Breech presentation (finding)"
+  },
+  {
+    "No_Registrasi": "10",
+    "Tanggal_Lahir_Pasien": "19/04/1990",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Insulin \n",
+    "Kode_SNOMED": "67866001",
+    "FSN_SNOMED": "Insulin (substance)\n\n"
+  },
+  {
+    "No_Registrasi": "10",
+    "Tanggal_Lahir_Pasien": "19/04/1990",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Cefazolin 1 g",
+    "Kode_SNOMED": "323936009",
+    "FSN_SNOMED": "Product containing precisely cefazolin (as cefazolin sodium) 1 gram/1 vial powder for conventional release solution for injection (clinical drug)\n"
+  },
+  {
+    "No_Registrasi": "10",
+    "Tanggal_Lahir_Pasien": "19/04/1990",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Obat",
+    "Teks_Asli_Resume": "Paracetamol 1 g IV, 3×",
+    "Kode_SNOMED": "1172863005",
+    "FSN_SNOMED": "Product containing precisely paracetamol 1 gram/1 each conventional release oral tablet (clinical drug)\n"
+  },
+  {
+    "No_Registrasi": "10",
+    "Tanggal_Lahir_Pasien": "19/04/1990",
+    "Tanggal_Masuk_Pasien": "3/12/2024",
+    "Kategori": "Kondisi Pulang",
+    "Teks_Asli_Resume": "Membaik",
+    "Kode_SNOMED": "268910001",
+    "FSN_SNOMED": "Patient's condition improved (finding)"
+  }
+]

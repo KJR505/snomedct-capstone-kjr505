@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNOMED-CT Search by KJR505</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <h1>🔎 SNOMED-CT Search by KJR505</h1>
+        <p>Aplikasi Pencarian & Manajemen Data SNOMED CT Capstone.</p>
+        
+        <img id="campus-logo" src="logo_kampus.png" alt="Logo Kampus Anda">
+
+        <button id="showInputForm" title="Tambah Data Mapping Baru" style="right: 20px;">
+            ➕ Input Data
+        </button>
+        
+        <button id="showStats" title="Lihat Statistik Frekuensi Kode" style="right: 180px;">
+            📊 Statistik
+        </button>
+    </header>
+
+    <main>
+        <section id="nav-bar" class="hidden-section">
+            <button id="btnBack" title="Kembali ke Pencarian">⬅️ Kembali</button>
+            <button id="btnViewData" title="Lihat semua data mapping">📋 Lihat Data</button>
+        </section>
+
+        <section id="search-area">
+            <input type="text" id="searchInput" placeholder="Cari FSN atau Teks Asli Resume..." autocomplete="off">
+            <p id="result-count"></p>
+        </section>
+        
+        <section id="results-container">
+            <p class="placeholder-text">Masukkan kata kunci untuk memulai pencarian.</p>
+        </section>
+
+        <section id="statistics-area" class="hidden-section">
+            <h2>Statistik & Analisis Data</h2>
+            <div id="stats-content">
+                <div id="gender-chart-container">
+                    <h3>Proporsi Gender Pasien (Man vs Woman)</h3>
+                    <div style="max-height: 300px;"><canvas id="genderChart"></canvas></div>
+                </div>
+                <div id="frequency-table-container">
+                    <h3>Tabel Frekuensi Kode SNOMED-CT (FSN)</h3>
+                    </div>
+            </div>
+        </section>
+
+        <section id="all-data-area" class="hidden-section">
+            <h2>Semua Data Mapping (JSON & Input Kustom)</h2>
+            <div id="data-controls">
+                <input type="text" id="dataSearchInput" placeholder="Cari di tabel data..." class="data-control">
+                <select id="dataFilterSelect" class="data-control">
+                    <option value="">Filter Kategori</option>
+                    </select>
+            </div>
+            <div id="full-data-table">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 | Aplikasi SNOMED-CT | Dibuat oleh Tim Capstone KJR505</p> 
+        </div>
+    </footer>
+    
+    <div id="inputModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Tambah Data Mapping Baru</h2>
+            <form id="inputForm">
+                <label for="reg">No. Registrasi:</label><input type="text" id="reg" placeholder="Cth: RM011" required><br>
+                <label for="kat">Kategori:</label>
+                <select id="kat" required>
+                    <option value="">-- Pilih Kategori --</option>
+                    <option value="Person">Person</option>
+                    <option value="Diagnosa">Diagnosa</option>
+                    <option value="Obat">Obat</option>
+                    <option value="Kondisi Pulang">Kondisi Pulang</option>
+                    <option value="Problem">Problem</option>
+                    <option value="Tindakan dan Hasil">Tindakan dan Hasil</option>
+                </select><br>
+                <label for="teks">Teks Asli Resume:</label><input type="text" id="teks" placeholder="Cth: Demam tinggi / Laki-laki" required><br>
+                <label for="kode">Kode SNOMED-CT:</label><input type="text" id="kode" placeholder="Cth: 386661006" required><br>
+                <label for="fsn">FSN SNOMED-CT:</label><input type="text" id="fsn" placeholder="Cth: Fever (finding) / Man (person)" required><br>
+                <button type="submit" id="saveDataButton">Simpan Data</button>
+                <p id="inputMessage" style="color: green;"></p>
+            </form>
+        </div>
+    </div>
+    
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button-edit">&times;</span>
+            <h2>Edit Data Mapping</h2>
+            <form id="editForm">
+                <input type="hidden" id="editIndex"> 
+                <label for="edit_reg">No. Registrasi:</label><input type="text" id="edit_reg" required><br>
+                 <label for="edit_kat">Kategori:</label>
+                <select id="edit_kat" required>
+                    <option value="">-- Pilih Kategori --</option>
+                    <option value="Person">Person</option>
+                    <option value="Diagnosa">Diagnosa</option>
+                    <option value="Obat">Obat</option>
+                    <option value="Kondisi Pulang">Kondisi Pulang</option>
+                    <option value="Problem">Problem</option>
+                    <option value="Tindakan dan Hasil">Tindakan dan Hasil</option>
+                </select><br>
+                <label for="edit_teks">Teks Asli Resume:</label><input type="text" id="edit_teks" required><br>
+                <label for="edit_kode">Kode SNOMED-CT:</label><input type="text" id="edit_kode" required><br>
+                <label for="edit_fsn">FSN SNOMED-CT:</label><input type="text" id="edit_fsn" required><br>
+                <button type="submit" id="saveEditButton">Simpan Perubahan</button>
+                <button type="button" id="cancelEditButton">Batal</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
