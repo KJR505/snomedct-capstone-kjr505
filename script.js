@@ -202,7 +202,8 @@ window.handleSort = (column) => {
 };
 
 function renderFullDataTable() {
-    const container = document.getElementById('full-data-table');
+    // KOREKSI: Targetkan wrapper scroll baru
+    const container = document.getElementById('full-data-table-wrapper'); 
     showSection('all-data-area'); 
 
     if (snomedData.length === 0) {
@@ -311,7 +312,7 @@ window.openEditModal = (index) => {
     
     form.editIndex.value = index; 
     form.edit_reg.value = data.No_Registrasi;
-    form.edit_kat.value = data.Kategori; // Dropdown value
+    form.edit_kat.value = data.Kategori; 
     form.edit_teks.value = data.Teks_Asli_Resume;
     form.edit_kode.value = data.Kode_SNOMED;
     form.edit_fsn.value = data.FSN_SNOMED;
@@ -442,7 +443,8 @@ function renderStatistics() {
     
     // --- 2. Tabel Frekuensi FSN ---
     const tableData = calculateFrequencyTable();
-    const tableContainer = document.getElementById('frequency-table-container');
+    // KOREKSI: Targetkan wrapper scroll baru
+    const tableContainer = document.getElementById('frequency-table-wrapper'); 
 
     if (tableData.length === 0) {
         tableContainer.innerHTML = '<h3>Tabel Frekuensi Kode SNOMED-CT (FSN)</h3><p>Tidak ada kode SNOMED-CT valid untuk dianalisis.</p>';
@@ -463,7 +465,9 @@ function renderStatistics() {
     });
 
     tableHTML += '</tbody></table>';
-    tableContainer.innerHTML = '<h3>Tabel Frekuensi Kode SNOMED-CT (FSN)</h3>' + tableHTML;
+    tableContainer.innerHTML = tableHTML;
+    // Pindahkan judul h3 ke luar wrapper scroll
+    document.querySelector('#statistics-area > div#stats-content > div#frequency-table-container > h3').innerHTML = 'Tabel Frekuensi Kode SNOMED-CT (FSN)';
 }
 
 // --- INISIALISASI APLIKASI DAN EVENT LISTENERS ---
