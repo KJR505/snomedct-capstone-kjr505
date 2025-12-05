@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #baeb7c;
+    background-color: #baeb7c; /* Warna Header dari CSS lama Anda */
     color: black;
     padding: 20px;
     text-align: center;
@@ -18,7 +18,7 @@ header {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 115px; 
+    height: 115px; /* Tinggi dari CSS lama Anda */
     width: auto;
     display: block; 
 }
@@ -275,18 +275,28 @@ main {
     padding: 15px;
 }
 
-/* KOREKSI SINTAKSIS & PERBAIKAN FOOTER */
-
+/* KOREKSI FINAL FOOTER: Mengatasi "nempel di kiri" */
 footer {
     background-color: #333; 
     color: white; 
-    padding: 20px 0; /* Memberi padding vertikal */
+    padding: 20px 0; /* Padding vertikal */
     width: 100%;
 }
 
 .footer-content {
     max-width: 1200px; 
-    margin: 0 auto;    /* INI yang meratakan tengah dan mengatasi masalah "nempel di kiri" */
+    margin: 0 auto;    /* MERATAKAN TENGAH */
     text-align: center; 
     padding: 0 20px; /* Padding untuk layar kecil */
+}
+
+/* KOREKSI UNTUK SELECT DI MODAL */
+#inputForm select, #editForm select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
