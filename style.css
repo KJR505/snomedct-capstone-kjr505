@@ -6,26 +6,44 @@ body {
 }
 
 header {
-    background-color: #baeb7c;
+    background-color: #baeb7c; /* Warna Header dari CSS lama Anda */
     color: black;
     padding: 20px;
     text-align: center;
     position: relative; 
+    
+    /* Perbaikan 1: Meningkatkan padding dan menghapus posisi absolut dari elemen anak */
+    padding-top: 130px; /* Memberi ruang untuk logo di atas */
+    height: auto; 
 }
 
 /* --- Logo dan Tombol Header --- */
 #campus-logo {
+    /* Perbaikan 1: Pindahkan logo ke posisi absolut di pojok kiri atas */
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 115px; 
+    height: 115px; /* Tinggi dari CSS lama Anda */
     width: auto;
     display: block; 
 }
 
-header button {
-    position: absolute;
+/* KOREKSI: Wrapper untuk tombol agar tidak bertumpuk */
+#header-controls {
+    position: absolute; /* Posisikan kontrol di pojok kanan atas */
     top: 20px;
+    right: 20px;
+    display: flex; /* Gunakan flex untuk menata tombol */
+    gap: 15px; 
+    align-items: center;
+    
+    /* NOTE: Karena kita menempatkan ini absolut di kanan atas,
+             header h1/p di tengah tidak akan tertimpa. */
+}
+
+/* Perbaikan 2: Hapus Posisi Absolute dari Tombol */
+header button {
+    position: static; /* Biarkan Flexbox di #header-controls yang mengatur */
     padding: 10px 15px;
     background-color: #28a745;
     color: white;
@@ -34,10 +52,12 @@ header button {
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.3s;
+    /* Reset style absolute lama */
+    top: auto;
+    right: auto;
 }
 
 #showStats {
-    right: 180px; 
     background-color: #ffc107;
     color: #333;
 }
@@ -141,8 +161,8 @@ main {
 /* KOREKSI: Tambah SELECT untuk styling Kategori */
 #inputForm input[type="text"], 
 #editForm input[type="text"], 
-#inputForm select, /* TARGET SELECT BARU */
-#editForm select /* TARGET SELECT BARU */
+#inputForm select, 
+#editForm select
 {
     width: 100%;
     padding: 10px;
