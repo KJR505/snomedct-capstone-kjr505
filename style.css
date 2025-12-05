@@ -6,30 +6,31 @@ body {
 }
 
 header {
-    background-color: #baeb7c; /* Warna Header dari CSS lama Anda */
+    background-color: #baeb7c; 
     color: black;
     padding: 20px;
-    text-align: center; /* Memastikan semua konten (Logo, Judul, Tombol) rata tengah */
+    text-align: center;
     position: relative; 
-    height: auto; /* Memungkinkan header menyesuaikan tingginya */
+    padding-top: 10px; /* Jarak atas disesuaikan */
+    height: auto; 
 }
 
 /* --- LOGO CONTAINER (Baris 1) --- */
 #logo-container {
-    padding-bottom: 10px;
-    /* Menghapus semua style absolute/relative yang lama */
+    padding-bottom: 5px; /* Jarak antara logo dan judul */
 }
 #campus-logo {
+    /* Menggunakan position: static untuk tata letak vertikal */
     position: static; 
-    margin: 0 auto; /* Memastikan logo rata tengah */
-    height: 115px; /* Tinggi dari CSS lama Anda */
+    margin: 0 auto; 
+    height: 115px; 
     width: auto;
-    display: block; /* Penting agar margin auto berfungsi */
+    display: block; 
 }
 
 /* --- JUDUL CONTAINER (Baris 2) --- */
 #title-container {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 header h1, header p {
     margin: 0;
@@ -38,19 +39,16 @@ header h1, header p {
 
 /* --- KONTROL TOMBOL (Baris 3) --- */
 #header-controls {
-    display: flex; /* Menggunakan flexbox untuk menata tombol di satu baris */
-    justify-content: center; /* Meratakan tombol ke tengah */
-    gap: 15px; /* Jarak antar tombol */
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
     padding-top: 15px;
-    /* Menghapus semua style absolute/relative yang lama */
     position: static;
 }
 
-/* --- Tombol Utama: Hapus Posisi Absolute yang bertumpuk --- */
+/* --- Tombol Utama --- */
 header button {
-    /* MENGHAPUS STYLE ABSOLUTE YANG MENGGANGGU */
-    position: static; 
-    
+    position: static; /* Hilangkan posisi absolut */
     padding: 10px 15px;
     background-color: #28a745;
     color: white;
